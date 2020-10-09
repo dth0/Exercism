@@ -9,4 +9,4 @@ def abbreviate(words):
     for word in regex.findall(words.upper()):
         result.append(word[0].upper())
 
-    return ''.join(result)
+    return "".join(result)
